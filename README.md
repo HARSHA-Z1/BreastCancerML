@@ -12,7 +12,6 @@ This project implements a logistic regression model to classify breast cancer tu
 - [Usage](#usage)
 - [Results](#results)
 
-
 ## Introduction
 
 Breast cancer is a common cancer among women worldwide. Early detection and diagnosis are crucial for effective treatment. This project uses machine learning techniques to classify breast cancer tumors based on various features.
@@ -58,12 +57,12 @@ Confusion Matrix:
 [[70  1]
  [ 3 40]]
  
-Classification Report:<br>
-                  precision    recall  f1-score   support
+Classification Report:
+|               | precision | recall | f1-score | support |
+|---------------|-----------|--------|----------|---------|
+| 0             | 0.96      | 0.99   | 0.97     | 71      |
+| 1             | 0.98      | 0.93   | 0.95     | 43      |
+| **accuracy**  |           |        | 0.96     | 114     |
+| **macro avg** | 0.97      | 0.96   | 0.96     | 114     |
+| **weighted avg** | 0.97   | 0.96   | 0.96     | 114     |
 
-           0       0.96      0.99      0.97        71
-           1       0.98      0.93      0.95        43
-
-    accuracy                           0.96       114
-    macro avg       0.97      0.96      0.96       114
-    weighted avg       0.97      0.96      0.96       114
