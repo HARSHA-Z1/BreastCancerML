@@ -58,8 +58,8 @@ Confusion Matrix:
 [[70  1]
  [ 3 40]]
  
-Classification Report:
-                precision    recall  f1-score   support
+Classification Report:<br>
+                  precision    recall  f1-score   support
 
            0       0.96      0.99      0.97        71
            1       0.98      0.93      0.95        43
